@@ -1,4 +1,4 @@
-import Eventos from '../../models/eventos.js';
+import Eventos from '../models/eventos.js';
 
 const basicAuthMiddleware  = (req, res, next) => {
     const authHeader = req.headers.authorization

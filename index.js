@@ -4,6 +4,8 @@ import session from 'express-session';
 import eventosV1 from './controllers/v1/eventos.js';
 import authsV1 from './controllers/v1/auths.js';
 import mongoose from './db.js';
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express()
 
